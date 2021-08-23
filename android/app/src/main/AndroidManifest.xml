@@ -2,7 +2,8 @@
     package="com.example.nanobubble_webview">
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="nanobubble_webview"
+        android:label="NanoBubble"
+        android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
